@@ -1,0 +1,198 @@
+/* GLOBAL */
+
+body{
+background:#f5f7fa;
+font-family:'Segoe UI',sans-serif;
+margin:0;
+padding:0;
+}
+
+/* NAVBAR */
+
+.navbar{
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.navbar-brand{
+font-weight:700;
+font-size:20px;
+}
+
+/* HERO SECTION */
+
+.hero{
+background:linear-gradient(135deg,#4e73df,#1cc88a);
+color:white;
+padding:100px 0;
+text-align:center;
+}
+
+.hero h1{
+font-weight:700;
+}
+
+/* PRODUCT CARDS */
+
+.product-card{
+border:none;
+border-radius:14px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+transition:all 0.25s ease;
+margin-bottom:25px;
+overflow:hidden;
+background:white;
+}
+
+.product-card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+
+.product-card img{
+border-top-left-radius:14px;
+border-top-right-radius:14px;
+height:200px;
+object-fit:cover;
+}
+
+.product-card h5{
+font-weight:600;
+margin-bottom:10px;
+}
+
+.product-card p{
+font-size:14px;
+}
+
+/* ARTISAN INFO */
+
+.artisan{
+font-size:0.9em;
+color:#555;
+margin-top:5px;
+}
+
+.upi{
+font-size:0.85em;
+color:#888;
+}
+
+/* BUTTONS */
+
+.btn-success{
+background:#1cc88a;
+border:none;
+font-weight:600;
+}
+
+.btn-success:hover{
+background:#17a673;
+}
+
+/* AUTH PAGES */
+
+.auth-container{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+}
+
+.auth-card{
+width:420px;
+border-radius:16px;
+box-shadow:0 15px 35px rgba(0,0,0,0.3);
+padding:35px;
+background:white;
+}
+
+.auth-title{
+font-weight:700;
+color:#1cc88a;
+text-align:center;
+margin-bottom:10px;
+font-size:28px;
+}
+
+.auth-subtitle{
+text-align:center;
+color:#777;
+margin-bottom:25px;
+}
+
+/* INPUT */
+
+.form-control{
+border-radius:10px;
+padding:10px;
+}
+
+.form-control:focus{
+box-shadow:0 0 0 0.15rem rgba(28,200,138,.25);
+}
+
+/* ERROR MESSAGE */
+
+.form-error{
+font-size:13px;
+color:red;
+margin-top:2px;
+}
+
+/* ORDERS PAGE */
+
+.table{
+background:white;
+border-radius:12px;
+overflow:hidden;
+}
+
+.table th{
+background:#4e73df;
+color:white;
+}
+
+.table td{
+vertical-align:middle;
+}
+
+/* ORDER CARD */
+
+.order-card{
+border:none;
+border-radius:14px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* BADGES */
+
+.badge{
+font-size:13px;
+padding:6px 10px;
+}
+
+/* PAGE TITLES */
+
+.page-title{
+font-weight:700;
+margin-bottom:20px;
+}
+
+/* EMPTY STATE */
+
+.empty-state{
+text-align:center;
+color:#777;
+margin-top:40px;
+}
+
+/* FOOTER */
+
+.footer{
+margin-top:40px;
+padding:20px;
+text-align:center;
+font-size:14px;
+color:#888;
+}
